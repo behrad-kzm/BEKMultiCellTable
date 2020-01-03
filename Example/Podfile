@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'BEKMultiCellTable_Example' do
+  pod 'BEKMultiCellTable', :path => '../'
+
+  target 'BEKMultiCellTable_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 1.2.0'
+    pod 'Nimble', '~> 7.0'
+  end
+end
