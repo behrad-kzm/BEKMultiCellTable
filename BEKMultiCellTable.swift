@@ -1,0 +1,53 @@
+//
+//  BEKMultiCellTable.swift
+//  BEKMultiCellTable
+//
+//  Created by Behrad Kazemi on 1/1/20.
+//  Copyright © 2020 BEKApps. All rights reserved.
+//
+
+import UIKit
+
+public class BEKMultiCellTable: UITableView {
+    
+    private var bekDataSource = BEKDataSource()
+
+    public override init(frame: CGRect, style: UITableViewStyle) {
+        super.init(frame: frame, style: style)
+        self.dataSource = bekDataSource
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        self.dataSource = bekDataSource
+    }
+    func register(cell: BEKGenericCellType){        
+        if let nib = cell.nib {
+            register(nib, forCellReuseIdentifier: cell.reuseIdentifier)
+            return
+        }
+        register(cell.type, forCellReuseIdentifier: cell.reuseIdentifier)
+    }
+    public func insert(cell: BEKGenericCellType, atIndex index: Int, completion: (Bool) -> Void = {_ in}){
+        if index < 0 || index > bekDataSource.cells.count {
+            completion(false)
+        }
+        bekDataSource.cells.insert(cell, at: index)
+        register(cell: cell)
+        reloadData()
+        completion(true)
+    }
+    public func push(cell: BEKGenericCellType){
+        bekDataSource.cells.append(cell)
+        register(cell: cell)
+        reloadData()
+    }
+    public func push(cells: [BEKGenericCellType]){
+        bekDataSource.cells.append(contentsOf: cells)
+        cells.forEach { register(cell: $0) }
+        reloadData()
+    }
+    public func remove(cellAtIndex index: Int) {
+        bekDataSource.cells.remove(at: index)
+    }
+}

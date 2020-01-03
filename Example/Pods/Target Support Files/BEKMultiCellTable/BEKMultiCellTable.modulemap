@@ -1,0 +1,6 @@
+framework module BEKMultiCellTable {
+  umbrella header "BEKMultiCellTable-umbrella.h"
+
+  export *
+  module * { export * }
+}

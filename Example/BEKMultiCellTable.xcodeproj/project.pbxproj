@@ -7,12 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13E75A2A23BF81E700CD3596 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A2623BF81E600CD3596 /* ViewController.swift */; };
+		13E75A2B23BF81E700CD3596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E75A2723BF81E600CD3596 /* LaunchScreen.storyboard */; };
+		13E75A2C23BF81E700CD3596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E75A2823BF81E700CD3596 /* Assets.xcassets */; };
+		13E75A2D23BF81E700CD3596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E75A2923BF81E700CD3596 /* Main.storyboard */; };
+		13E75A3523BF860100CD3596 /* DescriptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E75A3323BF860100CD3596 /* DescriptionCell.xib */; };
+		13E75A3623BF860100CD3596 /* DescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A3423BF860100CD3596 /* DescriptionCell.swift */; };
+		13E75A3A23BF861D00CD3596 /* DescriptionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A3923BF861D00CD3596 /* DescriptionViewModel.swift */; };
+		13E75A3C23BF862D00CD3596 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A3B23BF862D00CD3596 /* ContactViewModel.swift */; };
+		13E75A3F23BF864400CD3596 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A3D23BF864300CD3596 /* ContactCell.swift */; };
+		13E75A4023BF864400CD3596 /* ContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E75A3E23BF864400CD3596 /* ContactCell.xib */; };
+		13E75A4323BF865B00CD3596 /* NewContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13E75A4123BF865B00CD3596 /* NewContactCell.xib */; };
+		13E75A4423BF865B00CD3596 /* NewContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A4223BF865B00CD3596 /* NewContactCell.swift */; };
+		13E75A4623BF866700CD3596 /* NewContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A4523BF866700CD3596 /* NewContactViewModel.swift */; };
+		13E75A4B23BF971100CD3596 /* DescriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A4923BF971100CD3596 /* DescriptionModel.swift */; };
+		13E75A4C23BF971100CD3596 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A4A23BF971100CD3596 /* Contact.swift */; };
+		13E75A5623BFD20600CD3596 /* ProgramaticallyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A5523BFD20600CD3596 /* ProgramaticallyCell.swift */; };
+		13E75A5823BFD22600CD3596 /* ProgramaticallyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A5723BFD22600CD3596 /* ProgramaticallyViewModel.swift */; };
 		1A8929472F9636FD35AF29D1 /* Pods_BEKMultiCellTable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1AD0676BB41DB2854DD786 /* Pods_BEKMultiCellTable_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9265E31B85C1340E22F2A34B /* Pods_BEKMultiCellTable_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9241F39617F063CBDE9BC931 /* Pods_BEKMultiCellTable_Example.framework */; };
 /* End PBXBuildFile section */
@@ -28,25 +41,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		13E75A2623BF81E600CD3596 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13E75A2723BF81E600CD3596 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13E75A2823BF81E700CD3596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13E75A2923BF81E700CD3596 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		13E75A3323BF860100CD3596 /* DescriptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescriptionCell.xib; sourceTree = "<group>"; };
+		13E75A3423BF860100CD3596 /* DescriptionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionCell.swift; sourceTree = "<group>"; };
+		13E75A3923BF861D00CD3596 /* DescriptionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionViewModel.swift; sourceTree = "<group>"; };
+		13E75A3B23BF862D00CD3596 /* ContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		13E75A3D23BF864300CD3596 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
+		13E75A3E23BF864400CD3596 /* ContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactCell.xib; sourceTree = "<group>"; };
+		13E75A4123BF865B00CD3596 /* NewContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewContactCell.xib; sourceTree = "<group>"; };
+		13E75A4223BF865B00CD3596 /* NewContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewContactCell.swift; sourceTree = "<group>"; };
+		13E75A4523BF866700CD3596 /* NewContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewContactViewModel.swift; sourceTree = "<group>"; };
+		13E75A4923BF971100CD3596 /* DescriptionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionModel.swift; sourceTree = "<group>"; };
+		13E75A4A23BF971100CD3596 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		13E75A5523BFD20600CD3596 /* ProgramaticallyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticallyCell.swift; sourceTree = "<group>"; };
+		13E75A5723BFD22600CD3596 /* ProgramaticallyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticallyViewModel.swift; sourceTree = "<group>"; };
 		2D1AD0676BB41DB2854DD786 /* Pods_BEKMultiCellTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEKMultiCellTable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D824C507898B91D68451D65 /* Pods-BEKMultiCellTable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEKMultiCellTable_Example.debug.xcconfig"; path = "Target Support Files/Pods-BEKMultiCellTable_Example/Pods-BEKMultiCellTable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BEKMultiCellTable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEKMultiCellTable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* BEKMultiCellTable_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BEKMultiCellTable_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6D85B00FF6D0F4E25785D057 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6D85B00FF6D0F4E25785D057 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9241F39617F063CBDE9BC931 /* Pods_BEKMultiCellTable_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEKMultiCellTable_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C62F886278713C9B01E8B1 /* Pods-BEKMultiCellTable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEKMultiCellTable_Tests.release.xcconfig"; path = "Target Support Files/Pods-BEKMultiCellTable_Tests/Pods-BEKMultiCellTable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B1CA29B5F9AC67489ED74BDE /* Pods-BEKMultiCellTable_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEKMultiCellTable_Example.release.xcconfig"; path = "Target Support Files/Pods-BEKMultiCellTable_Example/Pods-BEKMultiCellTable_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BEED1D3D787BD8DA18B2DC40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BEED1D3D787BD8DA18B2DC40 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C3380E3C7DEE3DFF2BBE6538 /* Pods-BEKMultiCellTable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEKMultiCellTable_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BEKMultiCellTable_Tests/Pods-BEKMultiCellTable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E97B47E1E354493EC511E22C /* BEKMultiCellTable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BEKMultiCellTable.podspec; path = ../BEKMultiCellTable.podspec; sourceTree = "<group>"; };
+		E97B47E1E354493EC511E22C /* BEKMultiCellTable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BEKMultiCellTable.podspec; path = ../BEKMultiCellTable.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +95,86 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13E75A2E23BF85CB00CD3596 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				13E75A4A23BF971100CD3596 /* Contact.swift */,
+				13E75A4923BF971100CD3596 /* DescriptionModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		13E75A2F23BF85D400CD3596 /* DescriptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				13E75A3723BF860700CD3596 /* VM */,
+				13E75A3423BF860100CD3596 /* DescriptionCell.swift */,
+				13E75A3323BF860100CD3596 /* DescriptionCell.xib */,
+			);
+			name = DescriptionCell;
+			sourceTree = "<group>";
+		};
+		13E75A3023BF85DD00CD3596 /* ContactCell */ = {
+			isa = PBXGroup;
+			children = (
+				13E75A3D23BF864300CD3596 /* ContactCell.swift */,
+				13E75A3E23BF864400CD3596 /* ContactCell.xib */,
+				13E75A3823BF860E00CD3596 /* VM */,
+			);
+			name = ContactCell;
+			sourceTree = "<group>";
+		};
+		13E75A3123BF85E800CD3596 /* NewContactCell */ = {
+			isa = PBXGroup;
+			children = (
+				13E75A3223BF85F000CD3596 /* VM */,
+				13E75A4223BF865B00CD3596 /* NewContactCell.swift */,
+				13E75A4123BF865B00CD3596 /* NewContactCell.xib */,
+			);
+			name = NewContactCell;
+			sourceTree = "<group>";
+		};
+		13E75A3223BF85F000CD3596 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				13E75A4523BF866700CD3596 /* NewContactViewModel.swift */,
+			);
+			name = VM;
+			sourceTree = "<group>";
+		};
+		13E75A3723BF860700CD3596 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				13E75A3923BF861D00CD3596 /* DescriptionViewModel.swift */,
+			);
+			name = VM;
+			sourceTree = "<group>";
+		};
+		13E75A3823BF860E00CD3596 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				13E75A3B23BF862D00CD3596 /* ContactViewModel.swift */,
+			);
+			name = VM;
+			sourceTree = "<group>";
+		};
+		13E75A5323BFD1CB00CD3596 /* ProgramaticallyCell */ = {
+			isa = PBXGroup;
+			children = (
+				13E75A5423BFD1E400CD3596 /* VM */,
+				13E75A5523BFD20600CD3596 /* ProgramaticallyCell.swift */,
+			);
+			name = ProgramaticallyCell;
+			sourceTree = "<group>";
+		};
+		13E75A5423BFD1E400CD3596 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				13E75A5723BFD22600CD3596 /* ProgramaticallyViewModel.swift */,
+			);
+			name = VM;
+			sourceTree = "<group>";
+		};
 		40E9A940076BF8F0B7931BD9 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +183,6 @@
 				C3380E3C7DEE3DFF2BBE6538 /* Pods-BEKMultiCellTable_Tests.debug.xcconfig */,
 				A9C62F886278713C9B01E8B1 /* Pods-BEKMultiCellTable_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,11 +210,16 @@
 		607FACD21AFB9204008FA782 /* Example for BEKMultiCellTable */ = {
 			isa = PBXGroup;
 			children = (
+				13E75A5323BFD1CB00CD3596 /* ProgramaticallyCell */,
+				13E75A3123BF85E800CD3596 /* NewContactCell */,
+				13E75A3023BF85DD00CD3596 /* ContactCell */,
+				13E75A2F23BF85D400CD3596 /* DescriptionCell */,
+				13E75A2E23BF85CB00CD3596 /* Models */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				13E75A2823BF81E700CD3596 /* Assets.xcassets */,
+				13E75A2723BF81E600CD3596 /* LaunchScreen.storyboard */,
+				13E75A2923BF81E700CD3596 /* Main.storyboard */,
+				13E75A2623BF81E600CD3596 /* ViewController.swift */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for BEKMultiCellTable";
@@ -228,6 +338,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -247,9 +358,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				13E75A3523BF860100CD3596 /* DescriptionCell.xib in Resources */,
+				13E75A4323BF865B00CD3596 /* NewContactCell.xib in Resources */,
+				13E75A2D23BF81E700CD3596 /* Main.storyboard in Resources */,
+				13E75A2C23BF81E700CD3596 /* Assets.xcassets in Resources */,
+				13E75A4023BF864400CD3596 /* ContactCell.xib in Resources */,
+				13E75A2B23BF81E700CD3596 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,8 +466,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				13E75A3F23BF864400CD3596 /* ContactCell.swift in Sources */,
+				13E75A4B23BF971100CD3596 /* DescriptionModel.swift in Sources */,
+				13E75A4C23BF971100CD3596 /* Contact.swift in Sources */,
+				13E75A2A23BF81E700CD3596 /* ViewController.swift in Sources */,
+				13E75A5823BFD22600CD3596 /* ProgramaticallyViewModel.swift in Sources */,
+				13E75A5623BFD20600CD3596 /* ProgramaticallyCell.swift in Sources */,
+				13E75A3A23BF861D00CD3596 /* DescriptionViewModel.swift in Sources */,
+				13E75A3C23BF862D00CD3596 /* ContactViewModel.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				13E75A4423BF865B00CD3596 /* NewContactCell.swift in Sources */,
+				13E75A4623BF866700CD3596 /* NewContactViewModel.swift in Sources */,
+				13E75A3623BF860100CD3596 /* DescriptionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,25 +498,6 @@
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
