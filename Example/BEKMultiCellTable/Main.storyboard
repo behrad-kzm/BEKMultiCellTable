@@ -52,7 +52,7 @@
                                         <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                         <state key="normal" title="Add a cell that has not XIB"/>
                                         <connections>
-                                            <action selector="addProgramaticallyViewModel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fL6-sT-fJq"/>
+                                            <action selector="addProgrammaticallyViewModel:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pCC-c2-Zyv"/>
                                         </connections>
                                     </button>
                                 </subviews>

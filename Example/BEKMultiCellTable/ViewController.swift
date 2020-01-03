@@ -9,7 +9,7 @@
 import UIKit
 import BEKMultiCellTable
 
-class ViewController: UIViewController {    
+class ViewController: UIViewController {
     @IBOutlet weak var tableView: BEKMultiCellTable!
 }
 
@@ -28,9 +28,9 @@ extension ViewController {
         let viewModel = DescriptionViewModel(withModel: model)
         tableView.push(cell: BEKGenericCell<DescriptionCell>(viewModel: viewModel))
     }
-    @IBAction func addProgramaticallyViewModel(_ sender: Any) {
-        let viewModel = ProgramaticallyViewModel(title: "This cell has no XIB")
-        tableView.push(cell: BEKGenericCell<ProgramaticallyCell>(viewModel: viewModel, withNib: nil))
+    @IBAction func addProgrammaticallyViewModel(_ sender: Any) {
+        let viewModel = ProgrammaticallyViewModel(title: "This cell has no XIB")
+        tableView.push(cell: BEKGenericCell<ProgrammaticallyCell>(viewModel: viewModel, withNib: nil))
     }
 
 }

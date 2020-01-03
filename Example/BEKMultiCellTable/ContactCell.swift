@@ -12,8 +12,6 @@ class ContactCell: UITableViewCell {
     
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var contactNameLabel: UILabel!
-    var nib: UINib? = UINib(nibName: "ContactCell", bundle: nil)
-
 }
 extension ContactCell: BEKBindableCell {
     typealias ViewModelType = ContactViewModel

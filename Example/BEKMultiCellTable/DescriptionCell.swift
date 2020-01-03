@@ -11,7 +11,6 @@ import BEKMultiCellTable
 class DescriptionCell: UITableViewCell {
 
     @IBOutlet weak var contentLabel: UILabel!
-    var nib: UINib? = UINib(nibName: "DescriptionCell", bundle: nil)
 
 }
 extension DescriptionCell: BEKBindableCell {

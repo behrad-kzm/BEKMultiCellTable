@@ -7,7 +7,7 @@
 //
 
 import Foundation
-struct ProgramaticallyViewModel {
+struct ProgrammaticallyViewModel {
     let title: String
 
     init(title: String) {

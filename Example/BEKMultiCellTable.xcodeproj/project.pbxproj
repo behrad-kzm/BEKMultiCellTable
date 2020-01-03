@@ -22,8 +22,8 @@
 		13E75A4623BF866700CD3596 /* NewContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A4523BF866700CD3596 /* NewContactViewModel.swift */; };
 		13E75A4B23BF971100CD3596 /* DescriptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A4923BF971100CD3596 /* DescriptionModel.swift */; };
 		13E75A4C23BF971100CD3596 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A4A23BF971100CD3596 /* Contact.swift */; };
-		13E75A5623BFD20600CD3596 /* ProgramaticallyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A5523BFD20600CD3596 /* ProgramaticallyCell.swift */; };
-		13E75A5823BFD22600CD3596 /* ProgramaticallyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A5723BFD22600CD3596 /* ProgramaticallyViewModel.swift */; };
+		13E75A5623BFD20600CD3596 /* ProgrammaticallyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A5523BFD20600CD3596 /* ProgrammaticallyCell.swift */; };
+		13E75A5823BFD22600CD3596 /* ProgrammaticallyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A5723BFD22600CD3596 /* ProgrammaticallyViewModel.swift */; };
 		1A8929472F9636FD35AF29D1 /* Pods_BEKMultiCellTable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1AD0676BB41DB2854DD786 /* Pods_BEKMultiCellTable_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
@@ -56,8 +56,8 @@
 		13E75A4523BF866700CD3596 /* NewContactViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewContactViewModel.swift; sourceTree = "<group>"; };
 		13E75A4923BF971100CD3596 /* DescriptionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionModel.swift; sourceTree = "<group>"; };
 		13E75A4A23BF971100CD3596 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		13E75A5523BFD20600CD3596 /* ProgramaticallyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticallyCell.swift; sourceTree = "<group>"; };
-		13E75A5723BFD22600CD3596 /* ProgramaticallyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticallyViewModel.swift; sourceTree = "<group>"; };
+		13E75A5523BFD20600CD3596 /* ProgrammaticallyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyCell.swift; sourceTree = "<group>"; };
+		13E75A5723BFD22600CD3596 /* ProgrammaticallyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyViewModel.swift; sourceTree = "<group>"; };
 		2D1AD0676BB41DB2854DD786 /* Pods_BEKMultiCellTable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BEKMultiCellTable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D824C507898B91D68451D65 /* Pods-BEKMultiCellTable_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BEKMultiCellTable_Example.debug.xcconfig"; path = "Target Support Files/Pods-BEKMultiCellTable_Example/Pods-BEKMultiCellTable_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BEKMultiCellTable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEKMultiCellTable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				13E75A5423BFD1E400CD3596 /* VM */,
-				13E75A5523BFD20600CD3596 /* ProgramaticallyCell.swift */,
+				13E75A5523BFD20600CD3596 /* ProgrammaticallyCell.swift */,
 			);
 			name = ProgramaticallyCell;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 		13E75A5423BFD1E400CD3596 /* VM */ = {
 			isa = PBXGroup;
 			children = (
-				13E75A5723BFD22600CD3596 /* ProgramaticallyViewModel.swift */,
+				13E75A5723BFD22600CD3596 /* ProgrammaticallyViewModel.swift */,
 			);
 			name = VM;
 			sourceTree = "<group>";
@@ -470,8 +470,8 @@
 				13E75A4B23BF971100CD3596 /* DescriptionModel.swift in Sources */,
 				13E75A4C23BF971100CD3596 /* Contact.swift in Sources */,
 				13E75A2A23BF81E700CD3596 /* ViewController.swift in Sources */,
-				13E75A5823BFD22600CD3596 /* ProgramaticallyViewModel.swift in Sources */,
-				13E75A5623BFD20600CD3596 /* ProgramaticallyCell.swift in Sources */,
+				13E75A5823BFD22600CD3596 /* ProgrammaticallyViewModel.swift in Sources */,
+				13E75A5623BFD20600CD3596 /* ProgrammaticallyCell.swift in Sources */,
 				13E75A3A23BF861D00CD3596 /* DescriptionViewModel.swift in Sources */,
 				13E75A3C23BF862D00CD3596 /* ContactViewModel.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  ProgramaticallyCell.swift
+//  ProgrammaticallyCell.swift
 //  BEKMultiCellTable_Example
 //
 //  Created by Behrad Kazemi on 1/3/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 import BEKMultiCellTable
-class ProgramaticallyCell: UITableViewCell {
+class ProgrammaticallyCell: UITableViewCell {
     
     var label = UILabel()
     
@@ -23,9 +23,9 @@ class ProgramaticallyCell: UITableViewCell {
     {    super.init(coder: aDecoder)!
     }
 }
-extension ProgramaticallyCell: BEKBindableCell{
-    func bindData(withViewModel viewModel: ProgramaticallyViewModel) {
+extension ProgrammaticallyCell: BEKBindableCell{
+    func bindData(withViewModel viewModel: ProgrammaticallyViewModel) {
         label.text = viewModel.title
     }
-    typealias ViewModelType = ProgramaticallyViewModel
+    typealias ViewModelType = ProgrammaticallyViewModel
 }
