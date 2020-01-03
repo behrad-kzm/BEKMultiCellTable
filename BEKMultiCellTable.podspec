@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.3'
 
   s.source_files = 'BEKMultiCellTable/Classes/**/*'
-  
+  s.swift_versions = '5.0'
   # s.resource_bundles = {
   #   'BEKMultiCellTable' => ['BEKMultiCellTable/Assets/*.png']
   # }

@@ -12,7 +12,7 @@ class ProgrammaticallyCell: UITableViewCell {
     
     var label = UILabel()
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String!)
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String!)
     {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         self.label = UILabel(frame: CGRect(x: 16, y: 0, width: 216.00, height: 31.00));
