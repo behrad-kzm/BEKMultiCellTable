@@ -12,7 +12,7 @@ public class BEKMultiCellTable: UITableView {
     
     private var bekDataSource = BEKDataSource()
 
-    public override init(frame: CGRect, style: UITableViewStyle) {
+    public override init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
         self.dataSource = bekDataSource
     }
