@@ -9,7 +9,7 @@ A generic table view based on MVVM that allows you to add multiple cell types at
 
  It doesn't need to implement the UITableViewDataSource inside your table view class. It also compatible with XIB contain cells or the programmatically implemented cells.
 ## Demo
-<img src="https://github.com/behrad-kzm/BEKCurveTabbar/blob/master/Preview3.gif" height="600">
+<img src="Preview.gif" height="600">
 
 ## Example
 
