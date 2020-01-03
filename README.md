@@ -1,29 +1,76 @@
-# BEKMultiCellTable
 
-[![CI Status](https://img.shields.io/travis/behrad-kzm/BEKMultiCellTable.svg?style=flat)](https://travis-ci.org/behrad-kzm/BEKMultiCellTable)
-[![Version](https://img.shields.io/cocoapods/v/BEKMultiCellTable.svg?style=flat)](https://cocoapods.org/pods/BEKMultiCellTable)
-[![License](https://img.shields.io/cocoapods/l/BEKMultiCellTable.svg?style=flat)](https://cocoapods.org/pods/BEKMultiCellTable)
-[![Platform](https://img.shields.io/cocoapods/p/BEKMultiCellTable.svg?style=flat)](https://cocoapods.org/pods/BEKMultiCellTable)
+# BEKMultiCellTable
+A generic table view based on MVVM that allows you to add multiple cell types at runtime in a single line of code.
+<img src="https://github.com/behrad-kzm/BEKDesing/blob/master/Images/BEKHeader.png">
+
+[![CI Status](http://img.shields.io/travis/popwarsweet/JellySlider.svg?style=flat)](https://travis-ci.org/popwarsweet/JellySlider)
+[![License](https://img.shields.io/cocoapods/l/JellySlider.svg?style=flat)](http://cocoapods.org/pods/JellySlider)
+[![Platform](https://img.shields.io/cocoapods/p/JellySlider.svg?style=flat)](http://cocoapods.org/pods/JellySlider)
+
+ It doesn't need to implement the UITableViewDataSource inside your table view class. It also compatible with XIB contain cells or the programmatically implemented cells.
+## Demo
+<img src="https://github.com/behrad-kzm/BEKCurveTabbar/blob/master/Preview3.gif" height="600">
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+__usage:__
 
-## Requirements
+__Table Configuration:__
 
-## Installation
+Set BEKMultiCellTable to the table's class.
 
-BEKMultiCellTable is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+```swift
 
-```ruby
-pod 'BEKMultiCellTable'
+    @IBOutlet weak var tableView: BEKMultiCellTable!
+
 ```
 
+__TableCell Configuration:__
+Make your custom cell confirms the BEKBindableCell protocol.
+
+```swift
+
+  extension MyCustomCell: BEKBindableCell {    
+    typealias ViewModeltype = NewContactViewModel
+    func bindData(withViewModel viewModel: NewContactViewModel) {
+        titleLabel.text = viewModel.nameText
+        profileImage.image = viewModel.profileImage
+        newProfileImage.image = viewModel.extraImage
+    }
+}
+
+```
+
+__Create and push BEKGenericCell:__
+
+Create a BEKGenericCell with a UITableView base Class and pass it's viewModel.
+```swift
+
+  tableView.push(cell: BEKGenericCell<MyCustomCell>(viewModel: viewModel))
+
+```
+__note:__
+
+If your table view cell hasn't XIB file just pass nil as the nib parameter.
+
+```swift
+
+  tableView.push(cell: BEKGenericCell<MyCustomCell>(viewModel: viewModel, withNib: nil))
+
+```
+this will register your class agaist nib to the table.
+
+## Installation
+```
+
+  pod 'BEKMultiCellTable', :git => 'https://github.com/behrad-kzm/BEKMultiCellTable.git'
+
+```
+
+
 ## Author
-
-behrad-kzm, kazemi.behrad@golrang.com
-
+Behrad Kazemi, Behradkzm@gmail.com, bekapps.com
+<a href="https://bekapps.com"> Visit Web Site </a>
 ## License
 
-BEKMultiCellTable is available under the MIT license. See the LICENSE file for more info.
+BEKCurveTabbar is available under the MIT license. See the LICENSE file for more info.
