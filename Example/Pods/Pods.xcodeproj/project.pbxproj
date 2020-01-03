@@ -17,11 +17,11 @@
 		0FF082D1672DD06F291EEDE3FEB518CB /* XCTestObservationCenter+Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 1284455908D0CE6BDF364C3B292437D9 /* XCTestObservationCenter+Register.m */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		11EDFDE1BC5494E14D6F81320FE3925F /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = D6D08E0D0BD65B44B72300EF2CFC4AB1 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1291696393FFEA6F94FF1E0B79923B43 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C880B7678B41068E063FF16E6D091CB /* HooksPhase.swift */; };
-		13E75A2223BF73DD00CD3596 /* BEKMultiCellTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A1E23BF73DD00CD3596 /* BEKMultiCellTable.swift */; };
-		13E75A2323BF73DD00CD3596 /* BEKBindableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A1F23BF73DD00CD3596 /* BEKBindableCell.swift */; };
-		13E75A2523BF73DD00CD3596 /* BEKDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A2123BF73DD00CD3596 /* BEKDataSource.swift */; };
-		13E75A4E23BF9ABC00CD3596 /* BEKGenericCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A4D23BF9ABC00CD3596 /* BEKGenericCell.swift */; };
-		13E75A5023BF9CF400CD3596 /* BEKGenericCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A4F23BF9CF400CD3596 /* BEKGenericCellType.swift */; };
+		13E75A5E23BFE49A00CD3596 /* BEKDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A5923BFE49A00CD3596 /* BEKDataSource.swift */; };
+		13E75A5F23BFE49A00CD3596 /* BEKMultiCellTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A5A23BFE49A00CD3596 /* BEKMultiCellTable.swift */; };
+		13E75A6023BFE49A00CD3596 /* BEKGenericCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A5B23BFE49A00CD3596 /* BEKGenericCell.swift */; };
+		13E75A6123BFE49A00CD3596 /* BEKGenericCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A5C23BFE49A00CD3596 /* BEKGenericCellType.swift */; };
+		13E75A6223BFE49A00CD3596 /* BEKBindableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E75A5D23BFE49A00CD3596 /* BEKBindableCell.swift */; };
 		14904B0C44D061B5916AA50F3318BA47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033A36A29482FD32230FE0CA177F9BD3 /* Foundation.framework */; };
 		1662BEDD868AF1CD729C4269E69A3580 /* MatcherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2966518FBD8326423AE6C2466C726E5 /* MatcherFunc.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
 		1D830AC18A2314499EC0991FD86FF086 /* Pods-BEKMultiCellTable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94C82C7E172BF90F5F6D241A1B1F41EA /* Pods-BEKMultiCellTable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -175,11 +175,11 @@
 		0F93CE987822DA9BE3C1E454A885CB76 /* Pods-BEKMultiCellTable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BEKMultiCellTable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1284455908D0CE6BDF364C3B292437D9 /* XCTestObservationCenter+Register.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestObservationCenter+Register.m"; path = "Sources/NimbleObjectiveC/XCTestObservationCenter+Register.m"; sourceTree = "<group>"; };
 		13021B9014131A1488541C9023D589EA /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Nimble/DSL.swift; sourceTree = "<group>"; };
-		13E75A1E23BF73DD00CD3596 /* BEKMultiCellTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKMultiCellTable.swift; sourceTree = "<group>"; };
-		13E75A1F23BF73DD00CD3596 /* BEKBindableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKBindableCell.swift; sourceTree = "<group>"; };
-		13E75A2123BF73DD00CD3596 /* BEKDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEKDataSource.swift; sourceTree = "<group>"; };
-		13E75A4D23BF9ABC00CD3596 /* BEKGenericCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BEKGenericCell.swift; sourceTree = "<group>"; };
-		13E75A4F23BF9CF400CD3596 /* BEKGenericCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BEKGenericCellType.swift; sourceTree = "<group>"; };
+		13E75A5923BFE49A00CD3596 /* BEKDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BEKDataSource.swift; path = BEKMultiCellTable/Classes/BEKDataSource.swift; sourceTree = "<group>"; };
+		13E75A5A23BFE49A00CD3596 /* BEKMultiCellTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BEKMultiCellTable.swift; path = BEKMultiCellTable/Classes/BEKMultiCellTable.swift; sourceTree = "<group>"; };
+		13E75A5B23BFE49A00CD3596 /* BEKGenericCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BEKGenericCell.swift; path = BEKMultiCellTable/Classes/BEKGenericCell.swift; sourceTree = "<group>"; };
+		13E75A5C23BFE49A00CD3596 /* BEKGenericCellType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BEKGenericCellType.swift; path = BEKMultiCellTable/Classes/BEKGenericCellType.swift; sourceTree = "<group>"; };
+		13E75A5D23BFE49A00CD3596 /* BEKBindableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BEKBindableCell.swift; path = BEKMultiCellTable/Classes/BEKBindableCell.swift; sourceTree = "<group>"; };
 		16DDABEC90294931401A8B9F00E70A2C /* Pods-BEKMultiCellTable_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BEKMultiCellTable_Tests-Info.plist"; sourceTree = "<group>"; };
 		1A30089FC590142031E870E98A55BE4F /* Pods-BEKMultiCellTable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BEKMultiCellTable_Tests-dummy.m"; sourceTree = "<group>"; };
 		1C880B7678B41068E063FF16E6D091CB /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
@@ -366,11 +366,11 @@
 		13E75A1D23BF6A2D00CD3596 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				13E75A1F23BF73DD00CD3596 /* BEKBindableCell.swift */,
-				13E75A1E23BF73DD00CD3596 /* BEKMultiCellTable.swift */,
-				13E75A2123BF73DD00CD3596 /* BEKDataSource.swift */,
-				13E75A4D23BF9ABC00CD3596 /* BEKGenericCell.swift */,
-				13E75A4F23BF9CF400CD3596 /* BEKGenericCellType.swift */,
+				13E75A5D23BFE49A00CD3596 /* BEKBindableCell.swift */,
+				13E75A5923BFE49A00CD3596 /* BEKDataSource.swift */,
+				13E75A5B23BFE49A00CD3596 /* BEKGenericCell.swift */,
+				13E75A5C23BFE49A00CD3596 /* BEKGenericCellType.swift */,
+				13E75A5A23BFE49A00CD3596 /* BEKMultiCellTable.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -890,12 +890,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13E75A5023BF9CF400CD3596 /* BEKGenericCellType.swift in Sources */,
-				13E75A2223BF73DD00CD3596 /* BEKMultiCellTable.swift in Sources */,
-				13E75A2523BF73DD00CD3596 /* BEKDataSource.swift in Sources */,
+				13E75A5F23BFE49A00CD3596 /* BEKMultiCellTable.swift in Sources */,
 				C95700162FF4169A6850843DB62E25CD /* BEKMultiCellTable-dummy.m in Sources */,
-				13E75A2323BF73DD00CD3596 /* BEKBindableCell.swift in Sources */,
-				13E75A4E23BF9ABC00CD3596 /* BEKGenericCell.swift in Sources */,
+				13E75A6123BFE49A00CD3596 /* BEKGenericCellType.swift in Sources */,
+				13E75A6223BFE49A00CD3596 /* BEKBindableCell.swift in Sources */,
+				13E75A6023BFE49A00CD3596 /* BEKGenericCell.swift in Sources */,
+				13E75A5E23BFE49A00CD3596 /* BEKDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
