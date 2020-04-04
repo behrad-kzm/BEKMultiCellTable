@@ -50,4 +50,7 @@ public class BEKMultiCellTable: UITableView {
     public func remove(cellAtIndex index: Int) {
         bekDataSource.cells.remove(at: index)
     }
+    public func removeAll() {
+			bekDataSource.cells.removeAll()
+	}
 }
