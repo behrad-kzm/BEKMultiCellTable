@@ -1,5 +1,7 @@
 
 # BEKMultiCellTable
+
+(deprecated) Use BEKListKit instead of this repo.
 A generic table view based on MVVM that allows you to add multiple cell types at runtime in a single line of code.
 <img src="https://github.com/behrad-kzm/BEKDesing/blob/master/Images/BEKHeader.png">
 
